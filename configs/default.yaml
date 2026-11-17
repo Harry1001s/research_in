@@ -1,0 +1,18 @@
+# 基础配置。新实验：cp configs/default.yaml configs/<名>.yaml，只改相关字段。
+name: baseline
+seed: 0
+output_dir: experiments
+
+data:
+  path: data/            # 改成真实数据路径
+  n_samples: 20000       # 占位数据用
+  n_features: 32
+  val_frac: 0.2
+
+model:
+  type: logreg           # 占位模型
+
+train:
+  lr: 0.1
+  steps: 2000
+  log_every: 200

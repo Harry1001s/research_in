@@ -1,0 +1,17 @@
+# 数据与实验产物
+data/*
+!data/.gitkeep
+experiments/*
+!experiments/.gitkeep
+*.ckpt
+*.pt
+*.safetensors
+wandb/
+
+# 临时文件
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+.DS_Store
